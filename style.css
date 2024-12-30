@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header{
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    height: 500px;
+    display: flex;
+    padding-left:62px;
+    flex-direction: column;
+    /* justify-content: center; */
+    vertical-align: center;
+}
+
+#header h1{
+    font-size: 60px;
+    padding-top: 220px;
+}
+
+#header h5{
+    font-size: 20px;
+}
+
+#infos{
+    background: rgba(249, 249, 249, 1);
+    color: black;
+    padding: 10px;
+    height: 200px;
+    display: flex;
+    padding-left:62px;
+    justify-content: space-around;
+    vertical-align: center;
+    align-items: center;
+}
+
+#infos div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80px;
+}
+
+#infos h3{
+    font-size: 40px;
+}
+
+#sobre{
+    background: white;
+    color: black;
+    padding: 10px;
+    height: 100vh;
+    display: flex;
+    padding-left:62px;
+    justify-content: space-around;
+    vertical-align: center;
+    align-items: center;
+}
+
+#sobre img{
+    height: 70vh;
+    padding:5px
+} 
+
+#sobre .left-side{
+    width: 60%;
+}
+
+.left-side h2{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.left-side p{
+    font-size: 20px;
+}
+
+.right-side {
+    width: 35%;
+}
+
+#conheca{
+    width: 100%;
+    height: 60vh;
+    color:white;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+#conheca h2{
+    margin-top: 100px;
+    font-size: 40px;
+}
+
+#conheca form{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#conheca form input{
+    margin-top: 20px;;
+    width: 500px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding:15px;
+}
+
+#conheca form button{
+    margin-top: 20px;
+    width: 300px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding:15px;
+    box-shadow: none;;
+    border: none;
+    background-color: rgba(192, 114, 18, 1)    ;
+    color: white;
+}
